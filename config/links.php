@@ -1,6 +1,6 @@
 <?php
 
-$links = [
+return [
     [
         'text' => 'Characters',
         'url' => '#',
