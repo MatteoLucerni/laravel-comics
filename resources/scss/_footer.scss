@@ -1,6 +1,6 @@
 footer {
     background-color: $gray;
-    padding: 24px 0;
+    padding-bottom: 24px;
 
     #info-links {
         background-color: black;
@@ -33,11 +33,17 @@ footer {
         }
     }
 
-    ul {
+    .navbar {
+        padding-top: 24px;
+    }
+
+    .navbar > ul {
         list-style-type: none;
+        display: flex;
+        align-items: center;
 
         li {
-            margin: 10px 0;
+            margin: 10px;
         }
 
         h3 {
