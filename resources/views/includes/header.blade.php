@@ -1,6 +1,4 @@
-@php
-    $links = config('links');
-@endphp
+@php $links = config('links'); @endphp
 
 <header>
     <div class="container">
