@@ -11,7 +11,7 @@
             <ul>
                 @foreach ($links as $link)
                     <li>
-                        <a @class(['active' => $link['current']]) href="{{ $link['url'] }}">
+                        <a @class(['active' => Route::is($link['route'])]) href="{{ $link['url'] }}">
                             {{ strtoupper($link['text']) }}
                         </a>
                     </li>

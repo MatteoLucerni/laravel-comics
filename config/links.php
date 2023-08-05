@@ -11,7 +11,7 @@ return [
         'text' => 'Comics',
         'url' => '#',
         'current' => true,
-        'route' => 'home'
+        'route' => '/'
     ],
     [
         'text' => 'Movies',
