@@ -5,7 +5,7 @@
 
 <body>
     @include('includes.header')
-    <h1>HELLOOOO</h1>
+    @yield('main-content')
     @include('includes.footer')
 </body>
 
