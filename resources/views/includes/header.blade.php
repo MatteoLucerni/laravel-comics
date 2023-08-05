@@ -9,14 +9,10 @@
                 </figure>
             </a>
             <ul>
-                <li>ciaooo</li>
-                {{-- <li v-for="link in links">
-                    <a :class="{ active: link.current }" href="#">{{ link . text . toUpperCase() }}</a>
-                </li> --}}
                 @foreach ($links as $link)
                     <li>
-                        <a href="{{ $link['url'] }}">
-                            {{ $link['text'] }}
+                        <a @class(['active' => $link['current']]) href="{{ $link['url'] }}">
+                            {{ strtoupper($link['text']) }}
                         </a>
                     </li>
                 @endforeach
