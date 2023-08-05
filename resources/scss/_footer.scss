@@ -2,13 +2,42 @@ footer {
     background-color: $gray;
     padding: 24px 0;
 
+    #info-links {
+        background-color: black;
+        background-image: url("../../public/images/dc-logo-bg.png"),
+            url("../../public/images//footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 35%, cover;
+        background-position: 80%, center;
+
+        h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: gray;
+            font-size: 0.8rem;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        .row {
+            width: 400px;
+        }
+
+        .col > div {
+            margin-bottom: 30px;
+        }
+    }
+
     ul {
         list-style-type: none;
-        display: flex;
-        align-items: center;
 
         li {
-            margin: 10px;
+            margin: 10px 0;
         }
 
         h3 {
