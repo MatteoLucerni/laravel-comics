@@ -1,0 +1,22 @@
+footer {
+    background-color: $gray;
+    padding: 24px 0;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 10px;
+        }
+
+        h3 {
+            color: $blue;
+        }
+    }
+
+    img {
+        vertical-align: middle;
+    }
+}
