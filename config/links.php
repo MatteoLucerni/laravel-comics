@@ -3,61 +3,61 @@
 return [
     [
         'text' => 'Characters',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'characters'
     ],
     [
         'text' => 'Comics',
-        'url' => '#',
+        'url' => '/',
         'current' => true,
         'route' => '/'
     ],
     [
         'text' => 'Movies',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'movies'
     ],
     [
         'text' => 'TV',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'tv'
     ],
     [
         'text' => 'Games',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'games'
     ],
     [
         'text' => 'Collectibles',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'collectibles'
     ],
     [
         'text' => 'Videos',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'videos'
     ],
     [
         'text' => 'Fans',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'fans'
     ],
     [
         'text' => 'News',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'news'
     ],
     [
         'text' => 'Shop',
-        'url' => '#',
+        'url' => '/',
         'current' => false,
         'route' => 'shop'
     ],
