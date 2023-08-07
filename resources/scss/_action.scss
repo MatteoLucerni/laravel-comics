@@ -1,0 +1,26 @@
+#action {
+    background-color: white;
+
+    .price-tag {
+        background-color: #70b04c;
+        padding: 15px 50px;
+        color: white;
+        font-weight: 300;
+        margin: 30px 0;
+    }
+
+    .split-section {
+        display: flex;
+        justify-content: space-between;
+
+        .left-side {
+            max-width: 65%;
+        }
+    }
+
+    .adv {
+        color: gray;
+        margin-bottom: 5px;
+        text-align: end;
+    }
+}
