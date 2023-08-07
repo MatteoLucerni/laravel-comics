@@ -1,8 +1,3 @@
-@php
-    $merch = config('merch');
-    $comics = config('comics');
-@endphp
-
 <!DOCTYPE html>
 <html lang="en">
 
