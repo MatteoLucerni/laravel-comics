@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $merch = config('merch');
-    $comics = config('comics');
-    return view('home', compact('comics', 'merch'));
+    return view('home');
 });
+
+Route::get('/action', function () {
+    return view('comics.action');
+})->name('action');
