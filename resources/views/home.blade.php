@@ -8,7 +8,7 @@
             <div class="row">
                 @foreach ($merch as $m)
                     <div class="col">
-                        <img src="{{ asset(images / $m['image']) }}" :alt="{{ $m['title'] }}">
+                        <img src="{{ asset("images/$m[image]") }}" alt="">
                         <h2>{{ $m['title'] }}</h2>
                     </div>
                 @endforeach
