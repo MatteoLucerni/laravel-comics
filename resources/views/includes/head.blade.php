@@ -5,7 +5,7 @@
     <title>DC Comics: @yield('title')</title>
     <style>
         body {
-            visibility: hidden;
+            display: none
         }
     </style>
     @vite('resources/js/app.js')
