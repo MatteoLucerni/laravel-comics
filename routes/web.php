@@ -49,44 +49,44 @@ Route::get('/batman', function () {
     return view('comics.batman', compact('comics', 'merch'));
 })->name('batman');
 
-Route::get('/BatmanBeyond', function () {
+Route::get('/batmanBeyond', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.BatmanBeyond', compact('comics', 'merch'));
-})->name('BatmanBeyond');
+    return view('comics.batmanBeyond', compact('comics', 'merch'));
+})->name('batmanBeyond');
 
-Route::get('/BatmanSuperman', function () {
+Route::get('/batmanSuperman', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.BatmanSuperman', compact('comics', 'merch'));
-})->name('BatmanSuperman');
+    return view('comics.batmanSuperman', compact('comics', 'merch'));
+})->name('batmanSuperman');
 
-Route::get('/BatmanSupermanAnnual', function () {
+Route::get('/batmanSupermanAnnual', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.BatmanSupermanAnnual', compact('comics', 'merch'));
-})->name('BatmanSupermanAnnual');
+    return view('comics.batmanSupermanAnnual', compact('comics', 'merch'));
+})->name('batmanSupermanAnnual');
 
-Route::get('/BatmanJoker', function () {
+Route::get('/batmanJoker', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.BatmanJoker', compact('comics', 'merch'));
-})->name('BatmanJoker');
+    return view('comics.batmanJoker', compact('comics', 'merch'));
+})->name('batmanJoker');
 
-Route::get('/BatmanThreeJokers', function () {
+Route::get('/batmanThreeJokers', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.BatmanThreeJokers', compact('comics', 'merch'));
-})->name('BatmanThreeJokers');
+    return view('comics.batmanThreeJokers', compact('comics', 'merch'));
+})->name('batmanThreeJokers');
 
-Route::get('/HarleyQuinn', function () {
+Route::get('/harleyQuinn', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.HarleyQuinn', compact('comics', 'merch'));
-})->name('HarleyQuinn');
+    return view('comics.harleyQuinn', compact('comics', 'merch'));
+})->name('harleyQuinn');
 
-Route::get('/CatWoman', function () {
+Route::get('/catWoman', function () {
     $merch = config('merch');
     $comics = config('comics');
-    return view('comics.CatWoman', compact('comics', 'merch'));
-})->name('CatWoman');
+    return view('comics.catWoman', compact('comics', 'merch'));
+})->name('catWoman');
