@@ -5,15 +5,15 @@
 @section('main-content')
     <div class="blue-line"></div>
     <section id="action">
-        <div class="thumb-cont">
-            <img class="thumb-image" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-        </div>
         <a href="{{ route('comic', $prev) }}">
             <i class="carousel-arrow fa-solid fa-chevron-left fa-4x"></i>
         </a>
         <div class="container">
             <div class="split-section">
                 <div class="long-side">
+                    <div class="thumb-cont">
+                        <img class="thumb-image" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                    </div>
                     <h1>{{ strtoupper($actionComic['title']) }}</h1>
                     <h4 class="price-tag">U.S. price: <strong>{{ $actionComic['price'] }}</strong></h4>
                     <p>

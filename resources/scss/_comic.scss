@@ -27,6 +27,7 @@
 
         .long-side {
             max-width: 65%;
+            position: relative;
         }
     }
 
@@ -57,8 +58,8 @@
         overflow: hidden;
         width: 166px;
         position: absolute;
-        top: -270px;
-        left: 110px;
+        top: -315px;
+        left: 20px;
         display: flex;
         justify-content: center;
 
