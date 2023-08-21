@@ -118,6 +118,7 @@
 
     a {
         color: rgb(0, 153, 255);
+        transition: color 0.2s;
 
         &:hover {
             color: blue;
