@@ -17,6 +17,10 @@
                     </li>
                 @endforeach
             </ul>
+            <div class="search-bar">
+                <input type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </nav>
     </div>
 </header>

@@ -26,3 +26,23 @@ a.active {
     padding: 20px;
     color: white;
 }
+
+.search-bar {
+    border-bottom: 2px solid $blue;
+    text-align: end;
+    padding-bottom: 3px;
+
+    input {
+        border: none;
+        outline: none;
+        text-align: end;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 140px;
+    }
+
+    i {
+        vertical-align: middle;
+    }
+}
