@@ -39,6 +39,7 @@
         position: absolute;
         transform: translateY(-50%);
         top: 50%;
+        transition: color 0.2s;
 
         &:hover {
             cursor: pointer;
