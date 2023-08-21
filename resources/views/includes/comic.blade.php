@@ -4,6 +4,9 @@
 
 @section('main-content')
     <section id="action">
+        <a href="{{ route('comic', $prev) }}">
+            <i class="carousel-arrow fa-solid fa-chevron-left fa-4x"></i>
+        </a>
         <div class="container">
             <div class="split-section">
                 <div class="long-side">
@@ -19,6 +22,9 @@
                 </div>
             </div>
         </div>
+        <a href="{{ route('comic', $next) }}">
+            <i class="carousel-arrow fa-solid fa-chevron-right fa-4x"></i>
+        </a>
     </section>
     <section id="comic-info">
         <div class="container">
