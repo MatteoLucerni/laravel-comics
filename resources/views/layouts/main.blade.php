@@ -7,6 +7,7 @@
     @include('includes.header')
     @include('includes.thumb')
     @yield('main-content')
+    @include('includes.jumbo')
     @include('includes.footer')
 </body>
 
