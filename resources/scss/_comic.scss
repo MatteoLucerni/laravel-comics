@@ -1,5 +1,6 @@
 #action {
     background-color: white;
+    position: relative;
 
     .price-tag {
         background-color: #70b04c;
@@ -21,6 +22,29 @@
 
         .long-side {
             max-width: 65%;
+        }
+    }
+
+    a {
+        color: black;
+    }
+
+    .carousel-arrow {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+
+        &:hover {
+            cursor: pointer;
+            color: gray;
+        }
+
+        &.fa-chevron-left {
+            left: 1%;
+        }
+
+        &.fa-chevron-right {
+            left: 96%;
         }
     }
 }
