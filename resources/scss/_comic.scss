@@ -118,5 +118,9 @@
 
     a {
         color: rgb(0, 153, 255);
+
+        &:hover {
+            color: blue;
+        }
     }
 }
