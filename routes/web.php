@@ -26,5 +26,9 @@ Route::get('/comic/{index}', function ($index) {
     // controllo per l'index
     if (!is_numeric($index) || $index < 0 || $index >= count($comics)) abort(404);
     $comic = $comics[$index];
-    return view('comic_page', compact('comics', 'merch', 'comic'));
+
+    // carosello
+    $prev = $index == 0 ? count($comics) - 1 : $index - 1;
+    $next = $index == count($comics) - 1 ? 0 : $index + 1;
+    return view('comic_page', compact('comics', 'merch', 'comic', 'prev', 'next'));
 })->name('comic');
