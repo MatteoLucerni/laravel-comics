@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Action')
+@section('title', $actionComic['title'])
 
 @section('main-content')
     <div class="blue-line"></div>
