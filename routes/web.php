@@ -17,7 +17,7 @@ Route::get('/', function () {
     $merch = config('merch');
     $comics = config('comics');
     return view('home', compact('comics', 'merch'));
-});
+})->name('home');
 
 Route::get('/comic/{index}', function ($index) {
     $merch = config('merch');
