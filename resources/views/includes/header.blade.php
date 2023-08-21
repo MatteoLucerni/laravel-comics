@@ -3,7 +3,7 @@
 <header>
     <div class="container">
         <nav class="navbar">
-            <a href="#">
+            <a href="{{ route('home') }}">
                 <figure>
                     <img src="{{ asset('images/dc-logo.png') }}" alt="DC Comics Logo">
                 </figure>
