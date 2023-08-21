@@ -1,3 +1,8 @@
+.blue-line {
+    height: 50px;
+    background-color: #0282f9;
+}
+
 #action {
     background-color: white;
     position: relative;
@@ -45,6 +50,20 @@
 
         &.fa-chevron-right {
             right: 1%;
+        }
+    }
+
+    .thumb-cont {
+        overflow: hidden;
+        width: 166px;
+        position: absolute;
+        top: -270px;
+        left: 110px;
+        display: flex;
+        justify-content: center;
+
+        .thumb-image {
+            height: 250px;
         }
     }
 }

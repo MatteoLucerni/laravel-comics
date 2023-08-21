@@ -3,7 +3,11 @@
 @section('title', 'Action')
 
 @section('main-content')
+    <div class="blue-line"></div>
     <section id="action">
+        <div class="thumb-cont">
+            <img class="thumb-image" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+        </div>
         <a href="{{ route('comic', $prev) }}">
             <i class="carousel-arrow fa-solid fa-chevron-left fa-4x"></i>
         </a>
