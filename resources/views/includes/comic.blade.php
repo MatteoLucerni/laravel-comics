@@ -12,7 +12,9 @@
             <div class="split-section">
                 <div class="long-side">
                     <div class="thumb-cont">
+                        <p class="info-ticket top-ticket">COMIC BOOK</p>
                         <img class="thumb-image" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                        <p class="info-ticket bot-ticket">VIEW GALLERY</p>
                     </div>
                     <h1>{{ strtoupper($actionComic['title']) }}</h1>
                     <h4 class="price-tag">U.S. price: <strong>{{ $actionComic['price'] }}</strong></h4>
