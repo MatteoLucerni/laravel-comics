@@ -22,6 +22,9 @@ Route::get('/', function () {
 Route::get('/comic/{index}', function ($index) {
     $merch = config('merch');
     $comics = config('comics');
+
+    // controllo per l'index
+    if (!is_numeric($index) || $index < 0 || $index >= count($comics)) abort(404);
     $comic = $comics[$index];
     return view('comic', compact('comics', 'merch', 'comic'));
 })->name('comic');
